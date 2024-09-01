@@ -2,7 +2,7 @@ const TelegramBot = require('node-telegram-bot-api');
 const { exec } = require('child_process');
 
 // Ganti dengan token bot Telegram Anda
-const token = '6029485714:AAE0NXOIOtBIPpH6BHPjPvoECunXrOkZn9w';
+const token = '7479499082:AAEI5-lGFlIv8EYS1JtWQGqJ8_hK1Vho5nI';
 
 // Inisialisasi bot dengan token
 const bot = new TelegramBot(token, { polling: true });
@@ -14,9 +14,9 @@ function logActivity(msg) {
   const command = msg.text.toLowerCase();
 
   console.log(`Aktivitas Penggunaan Bot Telegram`);
-  console.log(`• 811290532 ${user.id}`);
-  console.log(`• AnantChavan ${user.username || 'AnaNT'}`);
-  console.log(`• 811290532 ${chat.id}`);
+  console.log(`• 817505329 ${user.id}`);
+  console.log(`• AnantChavan ${user.username || 'Anuj'}`);
+  console.log(`• 817505329 ${chat.id}`);
   console.log(`• Perintah: ${command}`);
 }
 
